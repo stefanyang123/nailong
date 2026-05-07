@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4efe6" />
+    <title>AI 奶龙名画系列</title>
+    <meta
+      name="description"
+      content="AI 奶龙名画系列展示页，以高级美术馆式排版展示四张本地生成作品。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true">
+      <span data-progress></span>
+    </div>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="AI 奶龙名画系列首页">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>AI 奶龙 Gallery</span>
+        </a>
+        <div class="nav-links">
+          <a href="#works">作品</a>
+          <a href="#collection">馆藏</a>
+          <a href="#detail">细节</a>
+        </div>
+        <a class="nav-action" href="#collection">查看系列</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal is-visible" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Nailong Masterpieces / 2026</p>
+          <h1 id="hero-title">
+            <span>奶龙，进入</span><span>名画时代。</span>
+          </h1>
+          <p class="hero-subtitle">
+            <span>四幅本地生成作品，</span><span>把轻松角色放进经典艺术语境，</span><span>形成一座克制、明亮、</span><span>带一点幽默的数字展厅。</span>
+          </p>
+          <div class="hero-actions" aria-label="页面入口">
+            <a href="#works">观看作品</a>
+            <a href="#collection">浏览馆藏</a>
+          </div>
+        </div>
+
+        <figure class="hero-visual tilt-surface">
+          <img
+            src="assets/nailong-starry-night.png"
+            alt="奶龙站在星夜风格画面中大笑"
+          />
+          <figcaption>
+            <span>Featured Work</span>
+            <strong>Starry Laugh</strong>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="museum-strip reveal" aria-label="系列概览">
+        <div>
+          <span>Works</span>
+          <strong>04</strong>
+        </div>
+        <div>
+          <span>Language</span>
+          <strong>Classical Remix</strong>
+        </div>
+        <div>
+          <span>Texture</span>
+          <strong>Painterly AI</strong>
+        </div>
+      </section>
+
+      <section class="showcase" id="works" aria-label="精选作品">
+        <article class="feature feature-midnight reveal">
+          <div class="feature-copy">
+            <p class="eyebrow">No. 01 / Blue Gold</p>
+            <h2>星夜里的大笑。</h2>
+            <p>
+              深蓝旋涡与金色笔触把奶龙推到画面中央，情绪像光一样扩散。画面保留名画的浓烈，也把庄重转成轻快。
+            </p>
+            <dl class="feature-meta">
+              <div>
+                <dt>色调</dt>
+                <dd>夜蓝、金黄、墨绿</dd>
+              </div>
+              <div>
+                <dt>气质</dt>
+                <dd>热烈、明亮、戏剧感</dd>
+              </div>
+            </dl>
+          </div>
+          <figure class="feature-image panorama-frame zoom-surface">
+            <img
+              src="assets/nailong-starry-night.png"
+              alt="星夜风格的奶龙画作"
+            />
+          </figure>
+        </article>
+
+        <article class="feature feature-ivory reveal">
+          <div class="feature-copy">
+            <p class="eyebrow">No. 02 / Silent Smile</p>
+            <h2>微笑，换了一个表情。</h2>
+            <p>
+              古典肖像的安静秩序遇到圆润的奶龙形态，熟悉的凝视被轻轻偏转，油画质地依旧温厚。
+            </p>
+            <dl class="feature-meta">
+              <div>
+                <dt>色调</dt>
+                <dd>古金、深褐、雾绿</dd>
+              </div>
+              <div>
+                <dt>气质</dt>
+                <dd>静谧、古典、微妙幽默</dd>
+              </div>
+            </dl>
+          </div>
+          <figure class="feature-image portrait-frame zoom-surface">
+            <img
+              src="assets/nailong-mona.png"
+              alt="蒙娜丽莎风格的奶龙肖像"
+            />
+          </figure>
+        </article>
+
+        <article class="feature feature-sand reveal">
+          <div class="feature-copy">
+            <p class="eyebrow">No. 03 / The Touch</p>
+            <h2>一指之间，诞生一群快乐。</h2>
+            <p>
+              天顶画式的宏大构图被调成轻喜剧。人物关系依旧清楚，留白、手势与群像让画面更适合横向大屏展示。
+            </p>
+            <dl class="feature-meta">
+              <div>
+                <dt>色调</dt>
+                <dd>壁画米、赤陶、暖金</dd>
+              </div>
+              <div>
+                <dt>气质</dt>
+                <dd>庄严、诙谐、叙事性</dd>
+              </div>
+            </dl>
+          </div>
+          <figure class="feature-image mural-frame zoom-surface">
+            <img
+              src="assets/nailong-creation.png"
+              alt="创世纪构图风格的奶龙群像"
+            />
+          </figure>
+        </article>
+      </section>
+
+      <section class="collection reveal" id="collection" aria-label="全部作品">
+        <div class="section-heading">
+          <p class="eyebrow">The Collection</p>
+          <h2>像名画，也像一次认真开玩笑。</h2>
+          <p>
+            四张图以不同画面比例和色彩气质组织成一组，既能单张观看，也能作为统一系列展示。
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <article class="art-card">
+            <img
+              src="assets/nailong-starry-night.png"
+              alt="星夜风格的奶龙作品缩略图"
+            />
+            <div>
+              <span>01</span>
+              <h3>Starry Laugh</h3>
+              <p>蓝金旋涡，笑声定格。</p>
+            </div>
+          </article>
+          <article class="art-card">
+            <img
+              src="assets/nailong-mona.png"
+              alt="蒙娜丽莎风格的奶龙作品缩略图"
+            />
+            <div>
+              <span>02</span>
+              <h3>Mona Nai</h3>
+              <p>古典安静，表情出走。</p>
+            </div>
+          </article>
+          <article class="art-card">
+            <img
+              src="assets/nailong-creation.png"
+              alt="创世纪风格的奶龙作品缩略图"
+            />
+            <div>
+              <span>03</span>
+              <h3>The Touch</h3>
+              <p>严肃构图，快乐满屏。</p>
+            </div>
+          </article>
+          <article class="art-card">
+            <img
+              src="assets/nailong-portrait.png"
+              alt="梵高自画像风格的奶龙作品缩略图"
+            />
+            <div>
+              <span>04</span>
+              <h3>Blue Portrait</h3>
+              <p>冷色笔触，认真思考。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="detail-panel reveal" id="detail">
+        <div class="detail-copy">
+          <p class="eyebrow">Detail View</p>
+          <h2>把纹理留给眼睛。</h2>
+          <p>
+            近看能看到油彩般的厚度、布面裂纹和笔触方向。熟悉的名画气质与奶龙的表情一起停在画面里。
+          </p>
+        </div>
+        <div class="detail-stack" aria-label="细节图">
+          <img
+            src="assets/nailong-portrait.png"
+            alt="蓝色自画像风格奶龙细节"
+          />
+          <img src="assets/nailong-mona.png" alt="古典肖像风格奶龙细节" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>AI 奶龙 Gallery</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <div
+      class="lightbox"
+      data-lightbox
+      role="dialog"
+      aria-modal="true"
+      aria-label="作品大图"
+      aria-hidden="true"
+      hidden
+    >
+      <button
+        class="lightbox-close"
+        type="button"
+        data-lightbox-close
+        aria-label="关闭"
+      >
+        ×
+      </button>
+      <button
+        class="lightbox-nav lightbox-prev"
+        type="button"
+        data-lightbox-prev
+        aria-label="上一张"
+      >
+        ‹
+      </button>
+      <figure class="lightbox-frame">
+        <img data-lightbox-image alt="" />
+        <figcaption>
+          <span data-lightbox-count></span>
+          <h2 data-lightbox-title></h2>
+          <p data-lightbox-copy></p>
+        </figcaption>
+      </figure>
+      <button
+        class="lightbox-nav lightbox-next"
+        type="button"
+        data-lightbox-next
+        aria-label="下一张"
+      >
+        ›
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
